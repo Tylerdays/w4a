@@ -1,0 +1,38 @@
+html{
+    background-color: azure;
+    background-image: url(https://images-cdn.welcomesoftware.com/Zz05NmM1YjFjYjhlNDIxMWViODczZWQzYzBkNTFlNDU4ZA==);
+}
+#logo{
+    height: 70px;
+}
+button{
+    background-color: orchid;
+    color: blue;
+}
+#head{
+    font-size: 2rem;
+    color: blanchedalmond;
+    text-shadow: black 1px 3px 5px;
+}
+#logo1{
+    display: none;
+    height: 70px
+}
+@media only screen and (min-width:600px) {
+    html{
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d668c911-f57c-4216-9b50-77348e765ab6/d469mxq-0dfc5cff-ce94-402e-8762-dd2e38b12ae2.jpg/v1/fill/w_900,h_563,q_75,strp/batman_symbol_wallpaper_by_chris_alvarez_d469mxq-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYzIiwicGF0aCI6IlwvZlwvZDY2OGM5MTEtZjU3Yy00MjE2LTliNTAtNzczNDhlNzY1YWI2XC9kNDY5bXhxLTBkZmM1Y2ZmLWNlOTQtNDAyZS04NzYyLWRkMmUzOGIxMmFlMi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.x4ycXd_S1jPj9U6PpgA6Xq6CdpfPNpUzM5iJVCKil-4);
+    }
+}
+@media only screen and (min-width:1000px) {
+    #logo{
+        display: none;
+    }
+    #logo1{
+        display: block;
+    }
+}
+@media only screen and (min-width:768px) {
+    #head{
+        font-size: 10rem;
+    }
+}
